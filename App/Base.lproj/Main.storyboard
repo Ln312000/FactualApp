@@ -75,18 +75,19 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="qvr-Au-yn9" id="p3D-bf-RGv"/>
+                        <segue destination="Ds4-jW-pPm" kind="showDetail" identifier="showDetail" id="mnV-th-4pr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yMT-eX-fVJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="744.79999999999995" y="24.7376311844078"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="sEx-sX-uqA">
             <objects>
-                <viewController id="Ds4-jW-pPm" sceneMemberID="viewController">
+                <viewController id="Ds4-jW-pPm" customClass="ThirdViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F7d-F5-uRA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Rising Sun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boq-jy-2mn">
