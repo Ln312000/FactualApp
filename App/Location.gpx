@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!-- University -->
+    <wpt lat="50.784476" lon="-1.657035">
+        <time>2014-09-24T14:55:20Z</time>
+    </wpt>
+    
+    <!-- Oceanarium -->
+    <wpt lat="50.824028" lon="-1.684701">
+        <time>2014-09-24T14:55:35Z</time>
+    </wpt>
+    
+    <!-- Halo -->
+    <wpt lat="50.801416" lon="-1.572226">
+        <time>2014-09-24T14:55:45Z</time>
+    </wpt>
+    
+  
+</gpx>
