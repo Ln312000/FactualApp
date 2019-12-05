@@ -1,7 +1,7 @@
 import CoreLocation
 import UIKit
 import MapKit
-
+import AVFoundation
 
 class SecondViewController: UIViewController {
 
@@ -55,16 +55,7 @@ extension SecondViewController: CLLocationManagerDelegate {
 // func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
 // print(locations.last!)
 // }
-func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
-for annotation in mapView.annotations {
-if annotation.title == region.identifier {
-guard let annotationView = mapView.view(for: annotation) as? MKMarkerAnnotationView else { return }
-annotationView.markerTintColor = .green
 
-
-}
-}
-}
 
 func updateLabel() {
 
@@ -98,16 +89,16 @@ view.calloutOffset = CGPoint(x: -5, y: 5)
 view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
 }
 guard annotation is Treasure else { return nil }
-// 3
+
 _ = "marker"
 var _: MKMarkerAnnotationView
-// 4
+
 if let dequeuedView = mapView.dequeueReusableAnnotationView(withIdentifier: identifier)
 as? MKMarkerAnnotationView {
 dequeuedView.annotation = annotation
 view = dequeuedView
 } else {
-// 5
+
 view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
 view.canShowCallout = true
 view.calloutOffset = CGPoint(x: -5, y: 5)
@@ -124,10 +115,28 @@ func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, callou
 // get the treasure off the view...
 if let treasure = view.annotation as? Treasure {
 performSegue(withIdentifier: "showDetail", sender: treasure)
+    
 }
 
 }
 
 
+}
+
+class ThirdViewController {
+        var audioPlayer = AVAudioPlayer()
+        func viewDidLoad() {
+      
+            let sound = Bundle.main.path(forResource: "pubAudio", ofType: "wav")
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            }
+            catch{
+                print(error)
+            }
+        }
+    @IBAction func soundButton(_ sender: UIButton) {
+        audioPlayer.play()
+    }
 }
 

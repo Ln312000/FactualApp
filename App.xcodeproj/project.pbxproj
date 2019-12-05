@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA8379BB239927C6001F5FEF /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8379BA239927C6001F5FEF /* DestinationViewController.swift */; };
+		AA8379C223993642001F5FEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8379C123993642001F5FEF /* AVFoundation.framework */; };
+		AA8379C423993780001F5FEF /* pubAudio.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA8379C323993780001F5FEF /* pubAudio.wav */; };
 		AAB4DAEE217DF6790045DD14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4DAED217DF6790045DD14 /* AppDelegate.swift */; };
 		AAB4DAF0217DF6790045DD14 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4DAEF217DF6790045DD14 /* SecondViewController.swift */; };
 		AAB4DAF3217DF6790045DD14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB4DAF1217DF6790045DD14 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA8379BA239927C6001F5FEF /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		AA8379C123993642001F5FEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AA8379C323993780001F5FEF /* pubAudio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pubAudio.wav; sourceTree = "<group>"; };
 		AAB4DAEA217DF6790045DD14 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB4DAED217DF6790045DD14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB4DAEF217DF6790045DD14 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA8379C223993642001F5FEF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA8379C023993642001F5FEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA8379C123993642001F5FEF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAB4DAE1217DF6790045DD14 = {
 			isa = PBXGroup;
 			children = (
 				AAB4DAEC217DF6790045DD14 /* App */,
 				AAB4DB01217DF67A0045DD14 /* AppTests */,
 				AAB4DB0C217DF67A0045DD14 /* AppUITests */,
+				AA8379C023993642001F5FEF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +120,7 @@
 			children = (
 				AAD317C0217F10B3008D4215 /* Location.gpx */,
 				AAB4DAED217DF6790045DD14 /* AppDelegate.swift */,
+				AA8379BA239927C6001F5FEF /* DestinationViewController.swift */,
 				AAB4DAEF217DF6790045DD14 /* SecondViewController.swift */,
 				AAB4DB1B217E03D50045DD14 /* TreasureLocations.swift */,
 				AAB4DB1D217E03E50045DD14 /* Treasure.swift */,
@@ -111,6 +128,7 @@
 				AAB4DAF4217DF67A0045DD14 /* Assets.xcassets */,
 				AAB4DAF6217DF67A0045DD14 /* LaunchScreen.storyboard */,
 				AAB4DAF9217DF67A0045DD14 /* Info.plist */,
+				AA8379C323993780001F5FEF /* pubAudio.wav */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -239,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB4DAF8217DF67A0045DD14 /* LaunchScreen.storyboard in Resources */,
+				AA8379C423993780001F5FEF /* pubAudio.wav in Resources */,
 				AAB4DAF5217DF67A0045DD14 /* Assets.xcassets in Resources */,
 				AAB4DAF3217DF6790045DD14 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +288,7 @@
 				AAB4DAF0217DF6790045DD14 /* SecondViewController.swift in Sources */,
 				AAB4DB1C217E03D50045DD14 /* TreasureLocations.swift in Sources */,
 				AAB4DAEE217DF6790045DD14 /* AppDelegate.swift in Sources */,
+				AA8379BB239927C6001F5FEF /* DestinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
