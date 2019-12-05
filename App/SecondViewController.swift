@@ -126,7 +126,7 @@ performSegue(withIdentifier: "showDetail", sender: treasure)
 class ThirdViewController {
         var audioPlayer = AVAudioPlayer()
         func viewDidLoad() {
-      
+     
             let sound = Bundle.main.path(forResource: "pubAudio", ofType: "wav")
             do {
                 audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
