@@ -10,16 +10,18 @@ class TreasureLocations {
         let universityCoordinate = CLLocationCoordinate2D(latitude: 50.784476, longitude: -1.657035)
         let universityTreasure = Treasure(coordinate: universityCoordinate, title: "The Rising Sun")
         treasures.append(universityTreasure)
+        universityTreasure.videoURL = "gs://factual-project.appspot.com/Untitled Sequence.02.mov"
         
         
         let oceanariumCoordinate = CLLocationCoordinate2D(latitude: 50.824028, longitude: -1.684701)
         let oceanariumTreasure = Treasure(coordinate: oceanariumCoordinate, title: "The White Buck")
         treasures.append(oceanariumTreasure)
-        
+        oceanariumTreasure.videoURL = ""
         
         let haloCoordinate = CLLocationCoordinate2D(latitude: 50.801416, longitude: -1.572226)
         let haloTreasure = Treasure(coordinate: haloCoordinate, title: "The Filly Inn")
         treasures.append(haloTreasure)
+        haloTreasure.videoURL = ""
         
     }
     
