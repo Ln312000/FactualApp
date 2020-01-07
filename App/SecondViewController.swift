@@ -36,13 +36,19 @@ mapView.showAnnotations(mapView.annotations, animated: true)
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     //this happens every time a segue happens...
 
+    
     if let treasure = sender as? Treasure {
+        let vc = segue.destination as! DestinationViewController
+
+        vc.delegate = self as! DestinationViewControllerDelegate
+        vc.treasure = sender as! Treasure
+        
     // get the destination VC and pass the data over
     //segue.destination as? DestinationViewController
     // In the DestinationViewController setup a variable which is of type Treasure
     //vc.treasure = treasure
     //this is so that when you click on a specific info, it takes to the right page
-
+    
     }
 
   }

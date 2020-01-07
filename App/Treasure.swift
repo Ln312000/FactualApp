@@ -8,6 +8,8 @@ class Treasure: NSObject, MKAnnotation {
     var title: String?
     let region: CLCircularRegion
     var videoURL: String?
+    var details: String?
+    var image: UIImage!
     
     init(coordinate: CLLocationCoordinate2D, title: String) {
         self.coordinate = coordinate
