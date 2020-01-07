@@ -11,7 +11,7 @@ class TreasureLocations {
         let universityTreasure = Treasure(coordinate: universityCoordinate, title: "The Rising Sun")
         treasures.append(universityTreasure)
         universityTreasure.videoURL = "gs://factual-project.appspot.com/Untitled Sequence.02.mov"
-        
+
         
         let oceanariumCoordinate = CLLocationCoordinate2D(latitude: 50.824028, longitude: -1.684701)
         let oceanariumTreasure = Treasure(coordinate: oceanariumCoordinate, title: "The White Buck")

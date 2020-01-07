@@ -33,19 +33,19 @@ mapView.showAnnotations(mapView.annotations, animated: true)
 }
 
 
-override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//this happens every time a segue happens...
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    //this happens every time a segue happens...
 
-if let treasure = sender as? Treasure {
-// get the destination VC and pass the data over
-//segue.destination as? DestinationViewController
-// In the DestinationViewController setup a variable which is of type Treasure
-//vc.treasure = treasure
-//this is so that when you click on a specific info, it takes to the right page
+    if let treasure = sender as? Treasure {
+    // get the destination VC and pass the data over
+    //segue.destination as? DestinationViewController
+    // In the DestinationViewController setup a variable which is of type Treasure
+    //vc.treasure = treasure
+    //this is so that when you click on a specific info, it takes to the right page
 
-}
+    }
 
-}
+  }
 
 
 }
@@ -121,22 +121,5 @@ performSegue(withIdentifier: "showDetail", sender: treasure)
 }
 
 
-}
-
-class ThirdViewController {
-        var audioPlayer = AVAudioPlayer()
-        func viewDidLoad() {
-     
-            let sound = Bundle.main.path(forResource: "pubAudio", ofType: "wav")
-            do {
-                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-            }
-            catch{
-                print(error)
-            }
-        }
-    @IBAction func soundButton(_ sender: UIButton) {
-        audioPlayer.play()
-    }
 }
 
