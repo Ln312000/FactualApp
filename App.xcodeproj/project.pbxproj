@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2794AFDE23C4E462007BAE54 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794AFDD23C4E462007BAE54 /* ThirdViewController.swift */; };
+		AA169F3A23CCF18A00EF0F87 /* smallPubAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA169F3923CCF18A00EF0F87 /* smallPubAmbience.wav */; };
+		AA169F3B23CCF18A00EF0F87 /* smallPubAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA169F3923CCF18A00EF0F87 /* smallPubAmbience.wav */; };
+		AA169F3C23CCF18A00EF0F87 /* smallPubAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA169F3923CCF18A00EF0F87 /* smallPubAmbience.wav */; };
+		AA169F3E23CCF1BF00EF0F87 /* poolBarAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA169F3D23CCF1BF00EF0F87 /* poolBarAmbience.wav */; };
+		AA169F3F23CCF1BF00EF0F87 /* poolBarAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA169F3D23CCF1BF00EF0F87 /* poolBarAmbience.wav */; };
+		AA169F4023CCF1BF00EF0F87 /* poolBarAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA169F3D23CCF1BF00EF0F87 /* poolBarAmbience.wav */; };
 		AA8379BB239927C6001F5FEF /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8379BA239927C6001F5FEF /* DestinationViewController.swift */; };
 		AA8379C223993642001F5FEF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8379C123993642001F5FEF /* AVFoundation.framework */; };
 		AA8379C423993780001F5FEF /* pubAudio.wav in Resources */ = {isa = PBXBuildFile; fileRef = AA8379C323993780001F5FEF /* pubAudio.wav */; };
@@ -20,8 +26,6 @@
 		AAB4DB0E217DF67A0045DD14 /* AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4DB0D217DF67A0045DD14 /* AppUITests.swift */; };
 		AAB4DB1C217E03D50045DD14 /* TreasureLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4DB1B217E03D50045DD14 /* TreasureLocations.swift */; };
 		AAB4DB1E217E03E50045DD14 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB4DB1D217E03E50045DD14 /* Treasure.swift */; };
-		AAF8FCC023CCDCF000462E3D /* poolBarAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAF8FCBF23CCDCF000462E3D /* poolBarAmbience.wav */; };
-		AAF8FCC223CCDE6800462E3D /* smallPubAmbience.wav in Resources */ = {isa = PBXBuildFile; fileRef = AAF8FCC123CCDE6800462E3D /* smallPubAmbience.wav */; };
 		AAFEB12A23C39C4D00DB0490 /* videoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEB12923C39C4D00DB0490 /* videoViewController.swift */; };
 		AAFEB12C23C39DE300DB0490 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AAFEB12B23C39DE200DB0490 /* Podfile */; };
 		AAFEB12E23C39DE900DB0490 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAFEB12D23C39DE900DB0490 /* GoogleService-Info.plist */; };
@@ -50,6 +54,8 @@
 		2794AFDD23C4E462007BAE54 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4206D25DE0E8D8482B46CB1B /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8E3CEE7EF7618B3F5028DD /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
+		AA169F3923CCF18A00EF0F87 /* smallPubAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smallPubAmbience.wav; sourceTree = "<group>"; };
+		AA169F3D23CCF1BF00EF0F87 /* poolBarAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = poolBarAmbience.wav; sourceTree = "<group>"; };
 		AA8379BA239927C6001F5FEF /* DestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		AA8379C123993642001F5FEF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AA8379C323993780001F5FEF /* pubAudio.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pubAudio.wav; sourceTree = "<group>"; };
@@ -69,8 +75,6 @@
 		AAB4DB1B217E03D50045DD14 /* TreasureLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasureLocations.swift; sourceTree = "<group>"; };
 		AAB4DB1D217E03E50045DD14 /* Treasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
 		AAD317C0217F10B3008D4215 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
-		AAF8FCBF23CCDCF000462E3D /* poolBarAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = poolBarAmbience.wav; path = ../../../../Desktop/poolBarAmbience.wav; sourceTree = "<group>"; };
-		AAF8FCC123CCDE6800462E3D /* smallPubAmbience.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smallPubAmbience.wav; path = ../../../../Downloads/smallPubAmbience.wav; sourceTree = "<group>"; };
 		AAFEB12923C39C4D00DB0490 /* videoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoViewController.swift; sourceTree = "<group>"; };
 		AAFEB12B23C39DE200DB0490 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAFEB12D23C39DE900DB0490 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -150,9 +154,9 @@
 				AAFEB12B23C39DE200DB0490 /* Podfile */,
 				AAB4DAF6217DF67A0045DD14 /* LaunchScreen.storyboard */,
 				AAB4DAF9217DF67A0045DD14 /* Info.plist */,
+				AA169F3D23CCF1BF00EF0F87 /* poolBarAmbience.wav */,
 				AA8379C323993780001F5FEF /* pubAudio.wav */,
-				AAF8FCBF23CCDCF000462E3D /* poolBarAmbience.wav */,
-				AAF8FCC123CCDE6800462E3D /* smallPubAmbience.wav */,
+				AA169F3923CCF18A00EF0F87 /* smallPubAmbience.wav */,
 				AAFEB12D23C39DE900DB0490 /* GoogleService-Info.plist */,
 			);
 			path = App;
@@ -294,12 +298,12 @@
 			files = (
 				AAFEB12C23C39DE300DB0490 /* Podfile in Resources */,
 				AAB4DAF8217DF67A0045DD14 /* LaunchScreen.storyboard in Resources */,
+				AA169F3E23CCF1BF00EF0F87 /* poolBarAmbience.wav in Resources */,
 				AA8379C423993780001F5FEF /* pubAudio.wav in Resources */,
 				AAB4DAF5217DF67A0045DD14 /* Assets.xcassets in Resources */,
-				AAF8FCC223CCDE6800462E3D /* smallPubAmbience.wav in Resources */,
+				AA169F3A23CCF18A00EF0F87 /* smallPubAmbience.wav in Resources */,
 				AAB4DAF3217DF6790045DD14 /* Main.storyboard in Resources */,
 				AAFEB12E23C39DE900DB0490 /* GoogleService-Info.plist in Resources */,
-				AAF8FCC023CCDCF000462E3D /* poolBarAmbience.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA169F3F23CCF1BF00EF0F87 /* poolBarAmbience.wav in Resources */,
+				AA169F3B23CCF18A00EF0F87 /* smallPubAmbience.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA169F4023CCF1BF00EF0F87 /* poolBarAmbience.wav in Resources */,
+				AA169F3C23CCF18A00EF0F87 /* smallPubAmbience.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
