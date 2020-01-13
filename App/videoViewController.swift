@@ -8,8 +8,8 @@ var annotation: Treasure!
 
 
 @IBAction func playVideo(_ sender: UIButton) {
-//    guard let url = URL(string: annotation.videoURL! ) else { return }
-      guard let url = URL(string: "gs://factual-project.appspot.com/Untitled Sequence.02.mov" ) else { return }
+    guard let url = URL(string: annotation.videoURL! ) else { return }
+//      guard let url = URL(string: "gs://factual-project.appspot.com/Untitled Sequence.02.mov" ) else { return }
     // Create an AVPlayer, passing it the HTTP Live Streaming URL.
     let player = AVPlayer(url: url)
 
