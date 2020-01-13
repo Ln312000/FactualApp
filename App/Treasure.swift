@@ -10,6 +10,7 @@ class Treasure: NSObject, MKAnnotation {
     var videoURL: String?
     var details: String?
     var image: UIImage!
+    var timeDetails: String?
     
     init(coordinate: CLLocationCoordinate2D, title: String) {
         self.coordinate = coordinate

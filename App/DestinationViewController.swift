@@ -12,6 +12,9 @@ class DestinationViewController: UIViewController {
 
     @IBOutlet var pubInfo: UILabel!
     
+    @IBOutlet var openingTimes: UILabel!
+    
+    
     var AudioPlayer: AVAudioPlayer!
     var treasure: Treasure!
     var delegate: DestinationViewControllerDelegate?
@@ -19,9 +22,10 @@ class DestinationViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     pubInfo.text = treasure.details
+    openingTimes.text = treasure.timeDetails
     logo.image = UIImage(named: treasure.title!)
     backgroundColor()
-
+    
   
 }
     
