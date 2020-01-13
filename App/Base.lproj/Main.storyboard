@@ -54,11 +54,12 @@
                                     <constraint firstAttribute="height" constant="272" id="kEP-Gg-0dC"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A situated walkthrough of the community within pubs        (click the pint to launch the app)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLZ-bt-gob">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLZ-bt-gob">
                                 <rect key="frame" x="78" y="521" width="229" height="93"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="93" id="p2K-5D-tbi"/>
                                 </constraints>
+                                <string key="text">A situated walkthrough of the community within pubs                                                                                                                         (click the pint to launch the app)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
