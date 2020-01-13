@@ -14,13 +14,13 @@ class TreasureLocations {
         universityTreasure.details = "The Rising Sun"
 
         
-        let oceanariumCoordinate = CLLocationCoordinate2D(latitude: 50.824028, longitude: -1.684701)
+        let oceanariumCoordinate = CLLocationCoordinate2D(latitude: 50.744479, longitude: -1.878588)
         let oceanariumTreasure = Treasure(coordinate: oceanariumCoordinate, title: "The Silverback Microbrewery")
         treasures.append(oceanariumTreasure)
         oceanariumTreasure.videoURL = "https://firebasestorage.googleapis.com/v0/b/factual-project.appspot.com/o/Milton%20Fenton%20Interview.mp4?alt=media&token=ffa0393b-17eb-4450-97cd-88aa99cbc968"
         oceanariumTreasure.details = "The Silverback Microbrewery"
         
-        let haloCoordinate = CLLocationCoordinate2D(latitude: 50.801416, longitude: -1.572226)
+        let haloCoordinate = CLLocationCoordinate2D(latitude: 50.722321, longitude: -1.868195)
         let haloTreasure = Treasure(coordinate: haloCoordinate, title: "Sharkeys")
         treasures.append(haloTreasure)
         haloTreasure.videoURL = "https://firebasestorage.googleapis.com/v0/b/factual-project.appspot.com/o/Jeff%20White%20Interview.mp4?alt=media&token=42277366-e9b9-4c28-a591-6b4ae4e93dd7"

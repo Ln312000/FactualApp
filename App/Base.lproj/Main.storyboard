@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pzo-rK-28k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -127,15 +127,6 @@
                                     <constraint firstAttribute="height" constant="177" id="Wi1-0n-mAn"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xx-dV-tx5">
-                                <rect key="frame" x="16" y="249" width="350" height="369"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="369" id="6AE-0j-amf"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9S-TS-iTr">
                                 <rect key="frame" x="294" y="174" width="72" height="30"/>
                                 <state key="normal" title="Play Video">
@@ -148,7 +139,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEZ-Ju-hxH">
                                 <rect key="frame" x="6" y="174" width="132" height="30"/>
                                 <state key="normal" title="Play Pub Ambience">
-                                    <color key="titleColor" red="0.96882931472081213" green="0.96882931472081213" blue="0.96882931472081213" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="pubAudioButton:" destination="Ds4-jW-pPm" eventType="touchUpInside" id="qJu-Xp-40R"/>
@@ -163,6 +154,15 @@
                                     <action selector="stopAudioButton:" destination="Ds4-jW-pPm" eventType="touchUpInside" id="zN6-ma-owF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xx-dV-tx5">
+                                <rect key="frame" x="12" y="241" width="350" height="369"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="369" id="6AE-0j-amf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -183,7 +183,10 @@
                     </view>
                     <connections>
                         <outlet property="logo" destination="Gg1-73-uuw" id="0VF-wr-8e7"/>
+                        <outlet property="playVideoButton" destination="R9S-TS-iTr" id="ueV-4H-oYm"/>
+                        <outlet property="pubAudioButton" destination="gEZ-Ju-hxH" id="wAT-6z-Yb6"/>
                         <outlet property="pubInfo" destination="9Xx-dV-tx5" id="ERl-fW-Utj"/>
+                        <outlet property="stopPubAudio" destination="2Aq-dc-mDf" id="Y8k-BT-RgG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufN-v6-JSs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

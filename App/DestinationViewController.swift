@@ -25,22 +25,67 @@ class DestinationViewController: UIViewController {
   
 }
     
+    @IBOutlet var playVideoButton: UIButton!
+    @IBOutlet var stopPubAudio: UIButton!
     
+    @IBOutlet var pubAudioButton: UIButton!
     
     
     @IBAction func pubAudioButton(_ sender: UIButton) {
         playMusic()
+        
+        
+
+        
+
+        
+        
+        
     }
     
     func playMusic () {
+        if treasure.title == "The Rising Sun"{
         let sound = Bundle.main.path(forResource: "pubAudio", ofType: "wav")
         let url = URL(fileURLWithPath: sound!)
+        
         
         do {
             AudioPlayer = try AVAudioPlayer(contentsOf: url)
             AudioPlayer.play()
         } catch let er{
             print(er.localizedDescription)
+        }
+        }
+            if treasure.title == "Sharkeys"{
+                let sound = Bundle.main.path(forResource: "poolBarAmbience", ofType: "wav")
+                let url = URL(fileURLWithPath: sound!)
+                
+                
+                do {
+                    AudioPlayer = try AVAudioPlayer(contentsOf: url)
+                    AudioPlayer.play()
+                } catch let er{
+                    print(er.localizedDescription)
+                
+                
+                
+            }
+        }
+        if treasure.title == "The Silverback Microbrewery"{
+            let sound = Bundle.main.path(forResource: "smallPubAmbience", ofType: "wav")
+            let url = URL(fileURLWithPath: sound!)
+            
+            
+            do {
+                AudioPlayer = try AVAudioPlayer(contentsOf: url)
+                AudioPlayer.play()
+            } catch let er{
+                print(er.localizedDescription)
+            
+            
+        }
+            
+            
         }
     }
     
@@ -57,9 +102,13 @@ class DestinationViewController: UIViewController {
         if treasure.title == "The Rising Sun" {
 
           view.backgroundColor = #colorLiteral(red: 0.7083625197, green: 0.8822664618, blue: 0.9832202792, alpha: 1)
-            stopAudioButton.setTitleColor 
+            
+            
+            pubAudioButton.setTitleColor(.darkGray, for: .normal)
+            
+            stopPubAudio.setTitleColor (.darkGray, for: .normal)
+            playVideoButton.setTitleColor(.darkGray, for: .normal)
 
-      
     }
     
         if treasure.title == "Sharkeys"{
