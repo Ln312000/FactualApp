@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -115,38 +115,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rising Sun" translatesAutoresizingMaskIntoConstraints="NO" id="vc1-Jn-9xJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.74606567619999997" green="0.87253946069999999" blue="0.97256642579999997" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" red="0.74606567619999997" green="0.87253946069999999" blue="0.97256642579999997" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="aWC-xE-teG">
-                                <rect key="frame" x="-263" y="445" width="901" height="253"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gg1-73-uuw">
+                                <rect key="frame" x="67" y="13" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="l6C-er-Rbn">
-                                <rect key="frame" x="8" y="208" width="359" height="254"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xx-dV-tx5">
+                                <rect key="frame" x="16" y="194" width="350" height="424"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.74606567621231079" green="0.8725394606590271" blue="0.97256642580032349" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" red="0.71884566549999995" green="0.87620097399999997" blue="0.98825496440000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <string key="text">The Inn was rebuilt in the Victorian era but fell upon hard times. Now tastefully restored, it is once again a welcoming place for those travelling in this beautiful part of the New Forest. Refurbished to a very high standard retaining many original features including the stained glass windows and doors. Inside there is now a plush Victorian bar with a feature open fire place.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efD-fx-Uxh">
-                                <rect key="frame" x="8" y="170" width="116" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Pub Ambience"/>
-                                <connections>
-                                    <action selector="soundButton:" destination="Ds4-jW-pPm" eventType="touchUpInside" id="cRv-0a-KfW"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.76902755498389463" green="0.87055052688351653" blue="0.96130555868148804" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7i7-n0-eZL"/>
                     </view>
+                    <connections>
+                        <outlet property="logo" destination="Gg1-73-uuw" id="0VF-wr-8e7"/>
+                        <outlet property="pubInfo" destination="9Xx-dV-tx5" id="ERl-fW-Utj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ufN-v6-JSs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -162,10 +149,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2" width="1100" height="734"/>
         <image name="Image-1" width="1890" height="1417"/>
-        <image name="Rising Sun" width="1890" height="1417"/>
         <image name="download" width="319" height="612"/>
     </resources>
-    <color key="tintColor" red="0.54547965109999996" green="0.6519644013" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>

@@ -40,8 +40,8 @@ mapView.showAnnotations(mapView.annotations, animated: true)
     if let treasure = sender as? Treasure {
         let vc = segue.destination as! DestinationViewController
 
-        vc.delegate = self as! DestinationViewControllerDelegate
-        vc.treasure = sender as! Treasure
+
+        vc.treasure = sender as? Treasure
         
     // get the destination VC and pass the data over
     //segue.destination as? DestinationViewController

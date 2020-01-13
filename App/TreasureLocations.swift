@@ -10,7 +10,7 @@ class TreasureLocations {
         let universityCoordinate = CLLocationCoordinate2D(latitude: 50.784476, longitude: -1.657035)
         let universityTreasure = Treasure(coordinate: universityCoordinate, title: "The Rising Sun")
         treasures.append(universityTreasure)
-        universityTreasure.videoURL = "gs://factual-project.appspot.com/Untitled Sequence.02.mov"
+        universityTreasure.videoURL = "https://firebasestorage.googleapis.com/v0/b/factual-project.appspot.com/o/Untitled%20Sequence.02.mov?alt=media&token=34c6177b-2bce-4e6e-93a1-d049941b4863"
         universityTreasure.details = "The Rising Sun"
         
         
